@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarender", "Scarender\Scarender.csproj", "{F5314A96-6570-47DB-A42B-61C17EBC253E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5314A96-6570-47DB-A42B-61C17EBC253E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5314A96-6570-47DB-A42B-61C17EBC253E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5314A96-6570-47DB-A42B-61C17EBC253E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5314A96-6570-47DB-A42B-61C17EBC253E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
