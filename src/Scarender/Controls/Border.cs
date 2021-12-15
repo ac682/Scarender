@@ -1,4 +1,5 @@
 using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.Drawing.Processing;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
 
@@ -11,10 +12,12 @@ public class Border: ContentContainer
 
     public override Image Render(Size outer)
     {
-        ActualSize = Measure(outer);
+        (ActualSize,ActualPosition) = Measure(outer);
 
         var image = new Image<Argb32>(ActualSize.Width, ActualSize.Height);
-        //TODO: draw border
+        image.Mutate(context => context.DrawImage(Content.Render(ActualSize), Content.ActualPosition,1f)); 
+        //TODO: draw border by draw rectangle and apply image on it
+        
         return image;
     }
 }

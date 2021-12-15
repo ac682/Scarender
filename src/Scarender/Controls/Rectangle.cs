@@ -11,7 +11,7 @@ public class Rectangle: ControlBase
 
     public override Image Render(Size outer)
     {
-        ActualSize = Measure(outer);
+        (ActualSize,ActualPosition) = Measure(outer);
 
         var image = new Image<Argb32>(ActualSize.Width, ActualSize.Height, Fill);
         return image;
