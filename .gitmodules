@@ -1,0 +1,3 @@
+[submodule "submodules/Silkira"]
+	path = submodules/Silkira
+	url = git@github.com:theGravityLab/Silkira.git

@@ -1,10 +1,9 @@
-using Scarender.Controls;
-using SixLabors.ImageSharp;
-
-namespace Scarender;
+﻿namespace Scarender;
 
 public class Template
 {
-    public Size Size { get; set; }
-    public ControlBase Frame { get; set; }
+    public static Template FromFile()
+    {
+        return new Template();
+    }
 }
